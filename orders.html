@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My E-commerce Homepage</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-200">
+
+    <!-- Top Navigation -->
+    <nav class="bg-white p-4 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-blue-600">MyShop</h1>
+            <div class="flex-1 px-4">
+                <div class="relative">
+                    <span class="absolute inset-y-0 left-0 flex items-center pl-3">
+                        <svg class="w-5 h-5 text-gray-400" viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M21 21L15 15M17 11C17 15.4183 13.4183 19 9 19C4.58172 19 1 15.4183 1 11C1 6.58172 4.58172 3 9 3C13.4183 3 17 6.58172 17 11Z"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            </path>
+                        </svg>
+                    </span>
+                    <input type="text" placeholder="Search..."
+                        class="w-full p-2 pl-10 rounded-md border border-gray-300 focus:outline-none focus:border-blue-400">
+                </div>
+            </div>
+            <div class="flex items-center space-x-6">
+                <a href="#" class="text-gray-600 hover:text-blue-600">Login</a>
+                <span class="relative">
+                    <span
+                        class="absolute top-0 right-0 bg-red-500 text-white rounded-full h-5 w-5 flex items-center justify-center text-xs"
+                        style="transform: translate(50%, -50%);">3</span>
+                    🛒
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ... Top Navigation similar to previous templates ... -->
+
+    <!-- Orders Content -->
+    <section class="container mx-auto p-4 mt-12 bg-white rounded-md shadow-md">
+        <h2 class="text-2xl font-bold mb-6">My Orders</h2>
+        <ul class="space-y-4">
+            <!-- Sample Order Item -->
+            <li class="border p-4 rounded-md">
+                <p><strong>Order #:</strong> 12345</p>
+                <p><strong>Date:</strong> 1st Jan 2023</p>
+                <p><strong>Total:</strong> $59.99</p>
+                <a href="#" class="text-blue-600 hover:underline">View Details</a>
+            </li>
+            <!-- ... Repeat for more orders ... -->
+        </ul>
+    </section>
+
+    <!-- ... Footer ... -->
+
+
+    <!-- Footer -->
+    <footer class="bg-white p-6 mt-12">
+        <div class="container mx-auto text-center">
+            <p class="text-gray-600">&copy; 2023 MyShop. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
